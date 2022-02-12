@@ -19,7 +19,7 @@ body {
 .qr-scanner {
   width: 320px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 10vh;
   padding: 16px;
   background-color: white;
   border-radius: 18px;
