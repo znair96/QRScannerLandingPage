@@ -7,6 +7,8 @@ body {
   background-color: hsl(219, 77%, 91%);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 .attribution {
   font-size: 11px;
@@ -18,12 +20,15 @@ body {
 }
 .qr-scanner {
   width: 320px;
-  margin: auto;
-  margin-top: 10vh;
+  /* margin: auto; */
+  /* margin-top: 10vh; */
   padding: 16px;
   background-color: white;
   border-radius: 18px;
   box-shadow: -12px 12px 6px hsl(212, 45%, 89%);
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .qr-scanner img {
   width: 100%;
